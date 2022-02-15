@@ -34,7 +34,7 @@ z
 ## Read in data
 
 ```{r}
-bg_chem <- read.csv("data/BGchem2008data.csv")
+bg_chem <- read.csv("../data/BGchem2008data.csv")
 ```
 
 ```{r}
