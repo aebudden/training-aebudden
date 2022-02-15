@@ -1,0 +1,47 @@
+---
+title: "Untitled"
+output: html_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*writing some exciting italics*
+
+1.  here is item number 1
+2.  number 2
+3.  number 3
+
+### Does this a good subheader make?
+
+[@budden2008]
+
+```{r}
+```
+
+
+```{r}
+x<-3+2
+y<-6+2
+z<-y-x
+x
+y
+z
+```
+
+## Read in data
+
+```{r}
+bg_chem <- read.csv("data/BGchem2008data.csv")
+```
+
+```{r}
+plot(bg_chem$CTD_Depth, bg_chem$CTD_Temperature)
+```
+
+
+## Analysis
+
+## Plots
